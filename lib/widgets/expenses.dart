@@ -30,7 +30,7 @@ class _ExpensesState extends State<Expenses> {
   void _openAddExpenseOverlay() {
     showModalBottomSheet(
       context: context,
-      builder: (ctx) => Text('Modak bottom sheet'),
+      builder: (ctx) => Text('Modal bottom sheet'),
     );
   }
 
