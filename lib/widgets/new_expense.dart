@@ -44,7 +44,9 @@ class _NewExpenseState extends State<NewExpense> {
           Row(
             children: [
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pop(context); //close modal
+                },
                 child: const Text('Cancel'),
               ),
               const Spacer(),
